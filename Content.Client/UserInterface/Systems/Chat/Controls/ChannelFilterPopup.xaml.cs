@@ -16,6 +16,7 @@ public sealed partial class ChannelFilterPopup : Popup
         ChatChannel.Local,
         ChatChannel.Whisper,
         ChatChannel.Emotes,
+        ChatChannel.HiddenEmotes,
         ChatChannel.Radio,
         ChatChannel.Telepathic, // backmen: Psionic
         ChatChannel.Notifications,

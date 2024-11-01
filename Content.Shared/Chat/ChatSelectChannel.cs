@@ -7,7 +7,7 @@
     ///     Maps to <see cref="ChatChannel"/>, giving better names.
     /// </remarks>
     [Flags]
-    public enum ChatSelectChannel : ushort
+    public enum ChatSelectChannel : uint
     {
         None = 0,
 
@@ -45,6 +45,11 @@
         ///     Telepathic
         /// </summary>
         Telepathic = ChatChannel.Telepathic,
+
+        /// <summary>
+        ///     HiddenEmotes
+        /// </summary>
+        HiddenEmotes = ChatChannel.HiddenEmotes,
 
         /// <summary>
         ///     Deadchat
