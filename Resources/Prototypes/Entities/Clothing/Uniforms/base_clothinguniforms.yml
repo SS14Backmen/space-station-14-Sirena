@@ -27,6 +27,9 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+  - type: HideLayerClothing # Erida
+    slots:
+    - Breast
 
 - type: entity
   abstract: true

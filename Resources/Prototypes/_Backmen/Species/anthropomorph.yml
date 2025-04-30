@@ -18,6 +18,7 @@
     Head: MobAnthropomorphHead
     Hair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    Breast: MobHumanoidAnyMarking # Erida
     Chest: MobAnthropomorphTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -57,6 +58,9 @@
       points: 2
       required: false
 #      defaultMarkings: [ AnthropomorphHeadSideFoldedBack ]
+    Breast: # Erida
+      points: 1
+      required: false
     Chest:
       points: 3
       required: false

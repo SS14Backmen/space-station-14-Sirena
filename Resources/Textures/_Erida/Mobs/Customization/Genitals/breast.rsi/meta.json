@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from MOLOT-BlueMoon | Edited by PuroSlavKing (Github)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "breasts_pair_a",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_c",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_d",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_e",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_f",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_g",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_huge",
+      "directions": 4
+    },
+    {
+      "name": "breasts_pair_giga",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_a",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_b",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_c",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_d",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_e",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_f",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_g",
+      "directions": 4
+    },
+    {
+      "name": "breasts_quad_n",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_a",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_b",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_c",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_d",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_e",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_f",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_g",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_h",
+      "directions": 4
+    },
+    {
+      "name": "breasts_sextuple_i",
+      "directions": 4
+    }
+  ]
+}

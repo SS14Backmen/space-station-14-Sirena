@@ -17,6 +17,7 @@
     FacialHair: MobSlimeMarkingFollowSkin
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    Breast: MobHumanoidAnyMarking # Erida
     Chest: MobSlimeTorso
     HeadTop: MobHumanoidAnyMarking # Corvax Sponsors
     Tail: MobHumanoidAnyMarking # Corvax Sponsors
@@ -44,6 +45,9 @@
       required: false
     HeadTop: # :skull:
       points: 1 # Corvax Sponsors
+      required: false
+    Breast: # Erida
+      points: 1
       required: false
     Chest:
       points: 1

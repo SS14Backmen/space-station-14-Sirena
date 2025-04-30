@@ -1,0 +1,195 @@
+# <-- BREAST PAIR --->
+- type: marking
+  id: BreastPairA
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_a
+
+- type: marking
+  id: BreastPairC
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_c
+
+- type: marking
+  id: BreastPairD
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_d
+
+- type: marking
+  id: BreastPairE
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_e
+
+- type: marking
+  id: BreastPairF
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_f
+
+- type: marking
+  id: BreastPairG
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_g
+
+- type: marking
+  id: BreastPairHuge
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_huge
+
+- type: marking
+  id: BreastPairGiga
+  bodyPart: Chest
+  markingCategory: Breast
+  sponsorOnly: true # Giga sponsors
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_pair_giga
+
+# <-- BREAST QUAD --->
+- type: marking
+  id: BreastQuadA
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_a
+
+- type: marking
+  id: BreastQuadB
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_b
+
+- type: marking
+  id: BreastQuadC
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_c
+
+- type: marking
+  id: BreastQuadD
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_d
+
+- type: marking
+  id: BreastQuadF
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_f
+
+- type: marking
+  id: BreastQuadG
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_g
+
+- type: marking
+  id: BreastQuadN
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_quad_n
+
+# <-- BREAST SEXTUPLE --->
+- type: marking
+  id: BreastSextupleA
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_a
+
+- type: marking
+  id: BreastSextupleB
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_b
+
+- type: marking
+  id: BreastSextupleC
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_c
+
+- type: marking
+  id: BreastSextupleD
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_d
+
+- type: marking
+  id: BreastSextupleE
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_e
+
+- type: marking
+  id: BreastSextupleF
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_f
+
+- type: marking
+  id: BreastSextupleG
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_g
+
+- type: marking
+  id: BreastSextupleH
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_h
+
+- type: marking
+  id: BreastSextupleI
+  bodyPart: Chest
+  markingCategory: Breast
+  sprites:
+  - sprite: _Erida/Mobs/Customization/Genitals/breast.rsi
+    state: breasts_sextuple_i

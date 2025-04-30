@@ -20,6 +20,7 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    Breast: MobHumanoidAnyMarking # Erida
     Chest: MobDemonTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -47,6 +48,9 @@
       points: 1
       required: false
     HeadSide:
+      points: 1
+      required: false
+    Breast: # Erida
       points: 1
       required: false
     Chest:

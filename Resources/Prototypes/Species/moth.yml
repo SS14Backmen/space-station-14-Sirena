@@ -20,6 +20,7 @@
     Snout: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    Breast: MobHumanoidAnyMarking # Erida
     Chest: MobMothTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -71,6 +72,9 @@
       points: 1
       required: false
     UndergarmentBottom:
+      points: 1
+      required: false
+    Breast: # Erida
       points: 1
       required: false
     Chest:

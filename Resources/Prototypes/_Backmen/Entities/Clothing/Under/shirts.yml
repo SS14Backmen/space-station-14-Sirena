@@ -12,6 +12,9 @@
       state: icon
     - type: TemperatureProtection
       heatingCoefficient: 0.75
+    - type: HideLayerClothing # Erida
+      slots:
+      - Breast
 
 - type: entity
   parent: ClothingUnderShirtBase
