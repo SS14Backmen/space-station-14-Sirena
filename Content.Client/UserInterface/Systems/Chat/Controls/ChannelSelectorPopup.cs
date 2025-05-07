@@ -12,6 +12,7 @@ public sealed class ChannelSelectorPopup : Popup
         ChatSelectChannel.Local,
         ChatSelectChannel.Whisper,
         ChatSelectChannel.Emotes,
+        ChatSelectChannel.HiddenEmotes,
         ChatSelectChannel.Radio,
         ChatSelectChannel.Telepathic, // backmen: Psionic
         ChatSelectChannel.LOOC,

@@ -239,7 +239,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         var language = languageOverride ?? _language.GetLanguage(source);
 
-        var shouldCapitalize = (desiredType != InGameICChatType.Emote);
+        var shouldCapitalize = (desiredType != InGameICChatType.Emote  && desiredType != InGameICChatType.HiddenEmote);
         var shouldPunctuate = _configurationManager.GetCVar(CCVars.ChatPunctuation);
         // Capitalizing the word I only happens in English, so we check language here
         var shouldCapitalizeTheWordI = (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en")
@@ -282,6 +282,9 @@ public sealed partial class ChatSystem : SharedChatSystem
                 break;
             case InGameICChatType.Emote:
                 SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
+                break;
+            case InGameICChatType.HiddenEmote:
+                SendHiddenEntityEmote(source, message, range, nameOverride, language, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
                 break;
             case InGameICChatType.Telepathic:
                 _nyanoChatSystem.SendTelepathicChat(source, message, range == ChatTransmitRange.HideChat);
@@ -364,7 +367,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             announcementSound ??= new SoundPathSpecifier(DefaultAnnouncementSound);
 
             var announcementFilename = _audio.GetSound(announcementSound);
-            var announcementEv = new AnnouncementSpokeEvent(Filter.Broadcast(), announcementFilename, announcementSound?.Params 
+            var announcementEv = new AnnouncementSpokeEvent(Filter.Broadcast(), announcementFilename, announcementSound?.Params
             ?? AudioParams.Default.WithVolume(-2f), message);
             RaiseLocalEvent(announcementEv);
         }
@@ -697,6 +700,62 @@ private void SendEntityWhisper(
             else
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user}: {action}");
     }
+
+
+
+    private void SendHiddenEntityEmote(
+        EntityUid source,
+        string action,
+        ChatTransmitRange range,
+        string? nameOverride,
+        LanguagePrototype language,
+        bool hideLog = false,
+        bool checkEmote = true,
+        bool ignoreActionBlocker = false
+        )
+    {
+        if (!_actionBlocker.CanEmote(source) && !ignoreActionBlocker)
+            return;
+
+        var ent = Identity.Entity(source, EntityManager);
+        string name = FormattedMessage.EscapeText(nameOverride ?? Name(ent));
+
+        var coloredName = $"[color=#FFD29E]{name}[/color]";
+        var coloredAction = $"[color=#FFD29E]{FormattedMessage.RemoveMarkup(action)}[/color]";
+
+        string wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
+                ("entityName", coloredName),
+                ("entity", ent),
+                ("message", coloredAction));
+
+
+        if (checkEmote)
+            TryEmoteChatInput(source, action);
+
+        float hiddenEmoteRange = 2;
+
+        foreach (var (session, data) in GetRecipients(source, hiddenEmoteRange))
+        {
+            if (session.AttachedEntity is not { Valid: true } listener)
+                continue;
+
+            if (Transform(session.AttachedEntity.Value).GridUid != Transform(source).GridUid
+                && !CheckAttachedGrids(source, session.AttachedEntity.Value))
+                continue;
+
+            if (data.Range <= hiddenEmoteRange)
+            {
+                _chatManager.ChatMessageToOne(ChatChannel.HiddenEmotes, action, wrappedMessage, source, false, session.Channel);
+            }
+        }
+
+        if (!hideLog)
+            if (name != Name(source))
+                _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Hidden emote from {ToPrettyString(source):user} as {name}: {action}");
+            else
+                _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Hidden emote from {ToPrettyString(source):user}: {action}");
+    }
+
 
 
     // ReSharper disable once InconsistentNaming
