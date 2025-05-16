@@ -1,6 +1,5 @@
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Events;
-using Content.Shared.Destructible;
 using Content.Shared.Rejuvenate;
 using Content.Shared.Slippery;
 using Content.Shared.StatusEffect;
@@ -22,7 +21,6 @@ public abstract class SharedGodmodeSystem : EntitySystem
         SubscribeLocalEvent<GodmodeComponent, BeforeStatusEffectAddedEvent>(OnBeforeStatusEffect);
         SubscribeLocalEvent<GodmodeComponent, BeforeStaminaDamageEvent>(OnBeforeStaminaDamage);
         SubscribeLocalEvent<GodmodeComponent, SlipAttemptEvent>(OnSlipAttempt);
-        SubscribeLocalEvent<GodmodeComponent, DestructionAttemptEvent>(OnDestruction);
     }
 
     private void OnSlipAttempt(EntityUid uid, GodmodeComponent component, SlipAttemptEvent args)
@@ -43,11 +41,6 @@ public abstract class SharedGodmodeSystem : EntitySystem
     private void OnBeforeStaminaDamage(EntityUid uid, GodmodeComponent component, ref BeforeStaminaDamageEvent args)
     {
         args.Cancelled = true;
-    }
-
-    private void OnDestruction(Entity<GodmodeComponent> ent, ref DestructionAttemptEvent args)
-    {
-        args.Cancel();
     }
 
     public virtual void EnableGodmode(EntityUid uid, GodmodeComponent? godmode = null)

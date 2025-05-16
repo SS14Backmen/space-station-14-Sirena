@@ -1,17 +1,18 @@
 - type: entity
-  parent: ChemDispenserEmpty
-  id: MiniChemDispenserEmpty
-  name: mini chemical dispenser
-  suffix: Empty
-  components:
-  - type: Sprite
-    sprite: Backmen/Structures/mini_dispensers.rsi
-
-- type: entity
   parent: ChemDispenser
   id: MiniChemDispenser
-  name: mini chemical dispenser
   suffix: Filled
+  name: mini chemical dispenser
   components:
   - type: Sprite
     sprite: Backmen/Structures/mini_dispensers.rsi
+    state: industrial-working
+
+- type: entity
+  parent: MiniChemDispenser
+  id: MiniChemDispenserEmpty
+  suffix: Empty
+  name: mini chemical dispenser
+  components:
+  - type: ReagentDispenser
+    pack: EmptyInventory

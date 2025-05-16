@@ -3,7 +3,7 @@
   parent: Clothing
   id: UnsensoredClothingUniformBase
   components:
-  - type: SlotBlock # Backmen
+  - type: CoveredSlot # Backmen
     slots: [undershirt, underpants]
   # backmen edit start
   - type: EmitSoundOnPickup
@@ -27,9 +27,6 @@
     spawned:
     - id: MaterialCloth1
       amount: 3
-  - type: PhysicalComposition # 50% of the amount of cloth you'd obtain upon butchering
-    materialComposition:
-      Cloth: 150
   - type: Food
     requiresSpecialDigestion: true
   - type: SolutionContainerManager
@@ -42,7 +39,6 @@
   - type: Tag
     tags:
     - ClothMade
-    - Recyclable
     - WhitelistChameleon
 
 - type: entity
@@ -50,7 +46,7 @@
   parent: UnsensoredClothingUniformBase
   id: UnsensoredClothingUniformSkirtBase
   components:
-  - type: SlotBlock # Backmen
+  - type: CoveredSlot # Backmen
     slots: [undershirt]
   - type: Clothing
     slots: [innerclothing]
@@ -62,7 +58,7 @@
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformBase
   components:
-  - type: SlotBlock # Backmen
+  - type: CoveredSlot # Backmen
     slots: [undershirt, underpants]
   - type: SuitSensor
   - type: DeviceNetwork
@@ -78,7 +74,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformSkirtBase
   components:
-  - type: SlotBlock # Backmen
+  - type: CoveredSlot # Backmen
     slots: [undershirt]
   - type: Clothing
     slots: [innerclothing]

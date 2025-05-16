@@ -100,9 +100,6 @@
       - PosterContrabandInteQNoSex
       - PosterContrabandInteQVulp
       - PosterContrabandInteQJulie # BACKMEN-END
-      - PosterContrabandExoAcid
-      - PosterContrabandExoRun
-      - PosterContrabandExoChomp
     chance: 0.99 # Сorvax-Next-EDIT
       # Сorvax-Next-START
     rarePrototypes:

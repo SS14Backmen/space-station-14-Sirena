@@ -45,8 +45,5 @@ tickrate = 20
 random_characters = true
 random_species_weights = ""
 
-ssd_sleep_time = 3600
-
 [server]
 rules_file= EridaDefaultRuleset
-

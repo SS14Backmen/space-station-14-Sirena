@@ -156,7 +156,3 @@ GlimmerEnabled  = false
 
 [diseases]
 GameDiseaseEnabled = false
-
-# следы
-
-EnableFootPrints = false

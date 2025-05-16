@@ -138,9 +138,9 @@
     price: 1000
   - type: PointLight
     radius: 1.2
-    energy: 2.2
+    energy: 1
     castShadows: false
-    color: "#ffca1b"
+    color: "#eef066"
 
 - type: entity
   parent: BikeHorn
@@ -219,13 +219,14 @@
   - type: EmitSoundOnLand
     sound: "/Audio/Items/Toys/pushHornFloor.ogg"
   - type: UseDelay
-    delay: 10
+    delay: 6
   - type: TriggerOnUse
   - type: RepulseAttractOnTrigger
     speed: 50
-    range: 3.5
+    range: 2
     whitelist:
       components:
       - MobMover
+      - Item
   - type: SpawnOnTrigger
     proto: EffectGravityPulse

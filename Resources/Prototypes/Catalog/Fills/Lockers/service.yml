@@ -36,6 +36,7 @@
   - type: StorageFill
     contents:
       - id: Eftpos # backmen
+      - id: CrowbarRed
       - id: VariantCubeBox
       - id: BoxMousetrap
         amount: 2

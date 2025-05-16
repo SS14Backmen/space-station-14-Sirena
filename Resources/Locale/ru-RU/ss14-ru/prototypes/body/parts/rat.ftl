@@ -1,2 +1,2 @@
-ent-ChestRat = грудь животного
+ent-TorsoRat = туловище животного
     .desc = { ent-PartAnimal.desc }

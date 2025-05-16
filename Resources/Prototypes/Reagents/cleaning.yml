@@ -118,4 +118,6 @@
         time: 5
         refresh: false
   footstepSound:
-    collection: FootstepSlime
+    collection: FootstepSticky
+    params:
+      volume: 6

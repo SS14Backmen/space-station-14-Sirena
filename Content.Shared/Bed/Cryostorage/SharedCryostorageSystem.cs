@@ -7,6 +7,7 @@ using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.Containers;
+using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
@@ -18,6 +19,7 @@ namespace Content.Shared.Bed.Cryostorage;
 public abstract class SharedCryostorageSystem : EntitySystem
 {
     [Dependency] private   readonly IConfigurationManager _configuration = default!;
+    [Dependency] private   readonly IMapManager _mapManager = default!;
     [Dependency] private   readonly ISharedPlayerManager _player = default!;
     [Dependency] private   readonly SharedMapSystem _map = default!;
     [Dependency] private   readonly MobStateSystem _mobState = default!;

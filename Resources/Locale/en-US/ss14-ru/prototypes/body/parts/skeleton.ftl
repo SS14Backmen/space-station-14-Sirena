@@ -1,6 +1,6 @@
 ent-PartSkeleton = skeleton body part
     .desc = { ent-BaseItem.desc }
-ent-ChestSkeleton = skeleton chest
+ent-TorsoSkeleton = skeleton torso
     .desc = { ent-PartSkeleton.desc }
 ent-HeadSkeleton = skull
     .desc = Alas poor Yorick...

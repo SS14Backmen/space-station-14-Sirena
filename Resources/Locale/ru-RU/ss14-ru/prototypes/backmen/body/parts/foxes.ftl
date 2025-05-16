@@ -1,6 +1,6 @@
 ent-PartHumanoidFox = fox body part
     .desc = { ent-BaseItem.desc }
-ent-ChestHumanoidFox = fox chest
+ent-TorsoHumanoidFox = fox torso
     .desc = { ent-PartHumanoidFox.desc }
 ent-HeadHumanoidFox = fox head
     .desc = { ent-PartHumanoidFox.desc }

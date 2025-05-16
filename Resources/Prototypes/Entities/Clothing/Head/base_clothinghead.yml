@@ -26,8 +26,8 @@
           Quantity: 10
   - type: Tag
     tags:
-    - ClothMade
-    - WhitelistChameleon
+      - ClothMade
+      - WhitelistChameleon
 
 - type: entity
   abstract: true
@@ -39,14 +39,10 @@
     spawned:
     - id: MaterialCloth1
       amount: 1
-  - type: PhysicalComposition # 50% of the amount of cloth you'd obtain upon butchering
-    materialComposition:
-      Cloth: 50
   - type: Tag
     tags:
-    - ClothMade
-    - Recyclable
-    - WhitelistChameleon
+      - ClothMade
+      - WhitelistChameleon
 
 - type: entity
   abstract: true
@@ -113,8 +109,8 @@
   id: ClothingHeadEVAHelmetBase
   name: base space helmet
   components:
-  - type: SlotBlock
-    slots: [ears, eyes, mask]
+  - type: CoveredSlot # Backmen
+    slots: [eyes, mask, ears]
   - type: BreathMask
   - type: Item
     size: Normal
@@ -152,8 +148,8 @@
   name: base hardsuit helmet
   categories: [ HideSpawnMenu ]
   components:
-  - type: SlotBlock
-    slots: [ears, eyes, mask]
+  - type: CoveredSlot # Backmen
+    slots: [eyes, mask, ears]
   - type: BreathMask
   - type: Sprite
     state: icon # default state used by most inheritors
@@ -210,8 +206,6 @@
   name: base hardsuit helmet with light
   categories: [ HideSpawnMenu ]
   components:
-  - type: SlotBlock
-    slots: [ears, eyes, mask]
   - type: Sprite
     layers:
     - state: icon

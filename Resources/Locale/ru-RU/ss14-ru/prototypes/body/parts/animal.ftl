@@ -6,5 +6,5 @@ ent-LegsAnimal = задние лапы животного
     .desc = { ent-PartAnimal.desc }
 ent-FeetAnimal = стопы животного
     .desc = { ent-PartAnimal.desc }
-ent-ChestAnimal = грудь животного
+ent-TorsoAnimal = туловище животного
     .desc = { ent-PartAnimal.desc }

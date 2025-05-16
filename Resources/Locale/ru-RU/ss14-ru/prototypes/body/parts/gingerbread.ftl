@@ -1,6 +1,6 @@
 ent-PartGingerbread = часть тела пряничного человечка
     .desc = { ent-BaseItem.desc }
-ent-ChestGingerbread = грудь пряничного человечка
+ent-TorsoGingerbread = туловище пряничного человечка
     .desc = { ent-PartGingerbread.desc }
 ent-HeadGingerbread = голова пряничного человечка
     .desc = { ent-PartGingerbread.desc }

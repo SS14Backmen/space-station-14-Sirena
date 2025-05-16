@@ -6,5 +6,5 @@ ent-LegsAnimal = animal legs
     .desc = { ent-PartAnimal.desc }
 ent-FeetAnimal = animal feet
     .desc = { ent-PartAnimal.desc }
-ent-ChestAnimal = animal chest
+ent-TorsoAnimal = animal torso
     .desc = { ent-PartAnimal.desc }

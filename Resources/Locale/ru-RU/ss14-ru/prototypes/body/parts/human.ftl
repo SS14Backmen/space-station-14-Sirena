@@ -1,6 +1,6 @@
 ent-PartHuman = часть тела человека
     .desc = { ent-BaseItem.desc }
-ent-ChestHuman = грудь человека
+ent-TorsoHuman = туловище человека
     .desc = { ent-PartHuman.desc }
 ent-HeadHuman = голова человека
     .desc = { ent-PartHuman.desc }

@@ -1,6 +1,6 @@
 ent-PartSlime = slime body part
     .desc = { ent-BaseItem.desc }
-ent-ChestSlime = slime chest
+ent-TorsoSlime = slime torso
     .desc = { ent-PartSlime.desc }
 ent-HeadSlime = slime head
     .desc = { ent-PartSlime.desc }

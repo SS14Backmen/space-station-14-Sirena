@@ -56,7 +56,6 @@ public sealed class ClientClothingSystem : ClothingSystem
     [Dependency] private readonly IResourceCache _cache = default!;
     [Dependency] private readonly InventorySystem _inventorySystem = default!;
     [Dependency] private readonly DisplacementMapSystem _displacement = default!;
-    [Dependency] private readonly SpriteSystem _sprite = default!;
 
     public override void Initialize()
     {
@@ -79,10 +78,9 @@ public sealed class ClientClothingSystem : ClothingSystem
         UpdateAllSlots(uid, component);
 
         // No clothing equipped -> make sure the layer is hidden, though this should already be handled by on-unequip.
-        if (_sprite.LayerMapTryGet((uid, args.Sprite), HumanoidVisualLayers.StencilMask, out var layer, false))
+        if (args.Sprite.LayerMapTryGet(HumanoidVisualLayers.StencilMask, out var layer))
         {
-            DebugTools.Assert(!args.Sprite[layer].Visible);
-            _sprite.LayerSetVisible((uid, args.Sprite), layer, false);
+            args.Sprite.LayerSetVisible(layer, false);
         }
         //if (args.Sprite.LayerMapTryGet(HumanoidVisualLayers.LegsMask, out var jumpsuitLayer))
         //{
@@ -201,9 +199,9 @@ public sealed class ClientClothingSystem : ClothingSystem
         RenderEquipment(uid, item, clothing.InSlot, component, null, clothing);
     }
 
-    private void OnDidUnequip(Entity<SpriteComponent> entity, ref DidUnequipEvent args)
+    private void OnDidUnequip(EntityUid uid, SpriteComponent component, DidUnequipEvent args)
     {
-        if (!TryComp(entity, out InventorySlotsComponent? inventorySlots))
+        if (!TryComp(uid, out InventorySlotsComponent? inventorySlots))
             return;
 
         if (!inventorySlots.VisualLayerKeys.TryGetValue(args.Slot, out var revealedLayers))
@@ -213,7 +211,7 @@ public sealed class ClientClothingSystem : ClothingSystem
         // may eventually bloat the player with lots of invisible layers.
         foreach (var layer in revealedLayers)
         {
-            _sprite.RemoveLayer(entity.AsNullable(), layer);
+            component.RemoveLayer(layer);
         }
         revealedLayers.Clear();
     }
@@ -256,7 +254,7 @@ public sealed class ClientClothingSystem : ClothingSystem
         {
             foreach (var key in revealedLayers)
             {
-                _sprite.RemoveLayer((equipee, sprite), key);
+                sprite.RemoveLayer(key);
             }
             revealedLayers.Clear();
         }
@@ -277,7 +275,7 @@ public sealed class ClientClothingSystem : ClothingSystem
 
         // temporary, until layer draw depths get added. Basically: a layer with the key "slot" is being used as a
         // bookmark to determine where in the list of layers we should insert the clothing layers.
-        var slotLayerExists = _sprite.LayerMapTryGet((equipee, sprite), slot, out var index, false);
+        bool slotLayerExists = sprite.LayerMapTryGet(slot, out var index);
 
         // Select displacement maps
         var displacementData = inventory.Displacements.GetValueOrDefault(slot); //Default unsexed map
@@ -311,16 +309,16 @@ public sealed class ClientClothingSystem : ClothingSystem
             {
                 index++;
                 // note that every insertion requires reshuffling & remapping all the existing layers.
-                _sprite.AddBlankLayer((equipee, sprite), index);
-                _sprite.LayerMapSet((equipee, sprite), key, index);
+                sprite.AddBlankLayer(index);
+                sprite.LayerMapSet(key, index);
 
                 if (layerData.Color != null)
-                    _sprite.LayerSetColor((equipee, sprite), key, layerData.Color.Value);
+                    sprite.LayerSetColor(key, layerData.Color.Value);
                 if (layerData.Scale != null)
-                    _sprite.LayerSetScale((equipee, sprite), key, layerData.Scale.Value);
+                    sprite.LayerSetScale(key, layerData.Scale.Value);
             }
             else
-                index = _sprite.LayerMapReserve((equipee, sprite), key);
+                index = sprite.LayerMapReserveBlank(key);
 
             if (sprite[index] is not Layer layer)
                 continue;
@@ -331,11 +329,11 @@ public sealed class ClientClothingSystem : ClothingSystem
                 && layer.RSI == null
                 && TryComp(equipment, out SpriteComponent? clothingSprite))
             {
-                _sprite.LayerSetRsi(layer, clothingSprite.BaseRSI);
+                layer.SetRsi(clothingSprite.BaseRSI);
             }
 
-            _sprite.LayerSetData((equipee, sprite), index, layerData);
-            _sprite.LayerSetOffset(layer, layer.Offset + slotDef.Offset);
+            sprite.LayerSetData(index, layerData);
+            layer.Offset += slotDef.Offset;
 
             if (displacementData is not null)
             {
