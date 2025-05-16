@@ -30,6 +30,8 @@ using Content.Shared.Chat;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+using Content.DeadSpace.Interfaces.Server;
+using Content.Server._Erida;
 
 namespace Content.Server.IoC
 {
@@ -86,6 +88,10 @@ namespace Content.Server.IoC
             IoCManager.Register<ConnectionManager>();
             IoCManager.Register<MultiServerKickManager>();
             IoCManager.Register<CVarControlManager>();
+
+            // start-erida: IoC
+            IoCManager.Register<IServerBanWebhooksManager, DiscordBansSystem>();
+            // end-erida: IoC
         }
     }
 }
