@@ -44,7 +44,7 @@
   #- PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - SubGamemodesRule
-  # - CalmMeteorSwarmScheduler
+  - CalmMeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -60,7 +60,7 @@
   #- PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - SubGamemodesRule
-  # - CalmMeteorSwarmScheduler
+  - CalmMeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -78,7 +78,7 @@
  # - PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - SubGamemodesRule
-  # - CalmMeteorSwarmScheduler
+  - CalmMeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -350,7 +350,7 @@
   - CalmStationEventScheduler
   - WageScheduler #backmen: currency
  # - PsiScheduler #backmen: psi
-#   - CalmMeteorSwarmScheduler
+  - CalmMeteorSwarmScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
 
@@ -365,7 +365,7 @@
   - CalmStationEventScheduler
   - WageScheduler
   # - PsiScheduler #backmen: psi
- # - CalmMeteorSwarmScheduler
+  - CalmMeteorSwarmScheduler
   - BasicRoundstartVariation
   - ExtendedThief # Uhh guess that's for more instability?
   - LavalandStormScheduler # Lavaland Change
@@ -409,6 +409,6 @@
   - CalmStationEventScheduler
   - WageScheduler #backmen: currency
  # - PsiScheduler #backmen: psi
- # - CalmMeteorSwarmScheduler
+  - CalmMeteorSwarmScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
