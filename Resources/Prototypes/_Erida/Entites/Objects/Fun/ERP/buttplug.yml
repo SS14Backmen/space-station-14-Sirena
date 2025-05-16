@@ -5,8 +5,6 @@
   id: LPPClothingUnderwearBase
   name: based underwear
   components:
-  - type: CoveredSlot # Backmen
-    slots: underpants
   - type: Sprite
     state: icon
   - type: Item
