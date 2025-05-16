@@ -111,7 +111,7 @@ server_name="main"
 enabled=true
 
 [server]
-rules_file="DeadSpaceDefaultRuleset"
+rules_file= EridaDefaultRuleset
 
 [net]
 max_connections = 1024
