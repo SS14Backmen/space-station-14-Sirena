@@ -65,6 +65,7 @@ public sealed class AdvertiseSystem : EntitySystem
         // Erida-Edit-Start | hideChat things
         bool hideChat = advert.HideFromChat;
 
+        if (_prototypeManager.TryIndex(advert.Pack, out var advertisements))
             _chat.TrySendInGameICMessage(uid, Loc.GetString(_random.Pick(advertisements.Values)), InGameICChatType.Speak, hideChat: hideChat);
         // Erida-Edit-End
     }
