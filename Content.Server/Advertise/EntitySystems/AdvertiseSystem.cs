@@ -62,10 +62,12 @@ public sealed class AdvertiseSystem : EntitySystem
         if (attemptEvent.Cancelled)
             return;
 
-        if (_prototypeManager.TryIndex(advert.Pack, out var advertisements))
-            _chat.TrySendInGameICMessage(uid, Loc.GetString(_random.Pick(advertisements.Values)), InGameICChatType.Speak, hideChat: true);
-    }
+        // Erida-Edit-Start | hideChat things
+        bool hideChat = advert.HideFromChat;
 
+            _chat.TrySendInGameICMessage(uid, Loc.GetString(_random.Pick(advertisements.Values)), InGameICChatType.Speak, hideChat: hideChat);
+        // Erida-Edit-End
+    }
     public override void Update(float frameTime)
     {
         var currentGameTime = _gameTiming.CurTime;

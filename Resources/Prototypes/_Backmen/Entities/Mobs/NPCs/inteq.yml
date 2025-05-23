@@ -27,6 +27,7 @@
     - NameSpets
     nameFormat: name-format-standard
   - type: Advertise
+    hideFromChat: false # Erida
     pack: InteQAgent
   - type: LanguageKnowledge #backmen: languages
     speaks:
