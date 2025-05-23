@@ -69,6 +69,7 @@ public sealed class AdvertiseSystem : EntitySystem
             _chat.TrySendInGameICMessage(uid, Loc.GetString(_random.Pick(advertisements.Values)), InGameICChatType.Speak, hideChat: hideChat);
         // Erida-Edit-End
     }
+
     public override void Update(float frameTime)
     {
         var currentGameTime = _gameTiming.CurTime;
