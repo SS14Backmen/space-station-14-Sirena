@@ -70,7 +70,7 @@ public sealed partial class CCVars
     /// The global pain multiplier, applied to every pain source.
     /// </summary>
     public static readonly CVarDef<float> UniversalPainMultiplier =
-        CVarDef.Create("pain.universal_multiplier", 1f, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("pain.universal_multiplier", 0.5f, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// How much pain can a single pain inflicter induce?
