@@ -19,17 +19,16 @@
       - head
       organs:
         heart: OrganAnimalHeart
-        lungs: OrganHumanLungs
+        lungs: OrganAnimalLungs
     groin: # Backmen edit: chest, groin separation
       part: GroinDemon
       connections:
       - right leg
       - left leg
-      - tail
       organs:
-      stomach: OrganHumanStomach
-      liver: OrganAnimalLiver
-      kidneys: OrganHumanKidneys
+        stomach: OrganSharkStomach
+        liver: OrganAnimalLiver
+        kidneys: OrganHumanKidneys
     right arm:
       part: RightArmShark
       connections:
@@ -54,6 +53,4 @@
       part: RightFootShark
     left foot:
       part: LeftFootShark
-    tail:
-      part: TailShark
 

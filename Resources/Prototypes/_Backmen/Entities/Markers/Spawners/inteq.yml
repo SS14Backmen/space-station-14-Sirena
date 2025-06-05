@@ -241,13 +241,6 @@
     description: ghost-role-information-inteq-vanguard-leader-SIZO-description
     rules: ghost-role-information-inteq-SIZO-rules
     whitelistRequired: true
-    requirements:
-    - !type:RoleTimeRequirement
-      role: JobCentralCommandOperator
-      time: 10800
-    - !type:DepartmentTimeRequirement
-      department: CentCom
-      time: 36000
   - type: CloningAppearance
     gear: InteQVanguardLeaderSizoGear
     components:
@@ -272,13 +265,6 @@
     description: ghost-role-information-inteq-vanguard-SIZO-description
     rules: ghost-role-information-inteq-SIZO-rules
     whitelistRequired: true
-    requirements:
-    - !type:RoleTimeRequirement
-      role: JobCentralCommandOperator
-      time: 10800
-    - !type:DepartmentTimeRequirement
-      department: CentCom
-      time: 36000
   - type: CloningAppearance
     gear: InteQVanguardOperativeSizoGear
     components:
@@ -303,13 +289,6 @@
     description: ghost-role-information-inteq-vanguard-SIZO-description
     rules: ghost-role-information-inteq-SIZO-rules
     whitelistRequired: true
-    requirements:
-    - !type:RoleTimeRequirement
-      role: JobCentralCommandOperator
-      time: 10800
-    - !type:DepartmentTimeRequirement
-      department: CentCom
-      time: 36000
   - type: CloningAppearance
     gear: InteQVanguardSoldierSizoGear
     components:
@@ -334,13 +313,6 @@
     description: ghost-role-information-inteq-vanguard-SIZO-description
     rules: ghost-role-information-inteq-SIZO-rules
     whitelistRequired: true
-    requirements:
-    - !type:RoleTimeRequirement
-      role: JobCentralCommandOperator
-      time: 10800
-    - !type:DepartmentTimeRequirement
-      department: CentCom
-      time: 36000
   - type: CloningAppearance
     gear: InteQVanguardMedicSizoGear
     components:

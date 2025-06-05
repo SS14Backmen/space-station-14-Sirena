@@ -1,6 +1,8 @@
 ent-PartShark = часть тела плафеима
     .desc = { ent-BaseItem.desc }
-ent-TorsoShark = тело плафеима
+ent-ChestShark = грудь плафеима
+    .desc = { ent-PartShark.desc }
+ent-SharkGroin = пах плафеима
     .desc = { ent-PartShark.desc }
 ent-HeadShark = голова плафеима
     .desc = { ent-PartShark.desc }
@@ -22,3 +24,6 @@ ent-LeftFootShark = левая ступня плафеима
     .desc = { ent-PartShark.desc }
 ent-RightFootShark = правая ступня плафеима
     .desc = { ent-PartShark.desc }
+ent-OrganSharkStomach = желудок акулы
+    .desc = { ent-OrganAnimalStomach.desc }
+ent-MobPlaf = Урист МакПлафеим

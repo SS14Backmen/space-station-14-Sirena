@@ -6,6 +6,18 @@
   name: "shark body part"
   abstract: true
   components:
+  - type: Damageable
+    damageContainer: OrganicPart # #Backmen-Edit
+  - type: BodyPart
+  - type: ContainerContainer #Backmen-Edit
+    containers:
+      bodypart: !type:Container
+        ents: []
+  - type: StaticPrice #Backmen-Edit
+    price: 100
+  - type: Tag #Backmen-Edit
+    tags:
+    - Trash
   - type: Extractable
     juiceSolution:
       reagents:
@@ -52,7 +64,7 @@
 
 - type: entity
   id: HeadShark
-  name: "голова акулы"
+  name: "Shark head"
   parent: [PartShark, BaseHead]
   components:
   - type: Sprite
@@ -68,7 +80,7 @@
 
 - type: entity
   id: LeftArmShark
-  name: "левая рука акулы"
+  name: "left shark arm"
   parent: [PartShark, BaseLeftArm]
   components:
     - type: Sprite
@@ -77,7 +89,7 @@
 
 - type: entity
   id: RightArmShark
-  name: "правая рука акулы"
+  name: "right shark arm"
   parent: [PartShark, BaseRightArm]
   components:
     - type: Sprite
@@ -86,7 +98,7 @@
 
 - type: entity
   id: LeftHandShark
-  name: "левая кисть акулы"
+  name: "left shark hand"
   parent: [PartShark, BaseLeftHand]
   components:
     - type: Sprite
@@ -95,32 +107,16 @@
 
 - type: entity
   id: RightHandShark
-  name: "правая кисть акулы"
+  name: "right shark hand"
   parent: [PartShark, BaseRightHand]
   components:
     - type: Sprite
       sprite: _ADT/Mobs/Customization/Shark/parts.rsi
       state: "r_hand"
 
-# DS14
-- type: entity
-  id: BaseTail
-  name: "tail"
-  parent: BasePart
-  abstract: true
-
-- type: entity
-  id: TailShark
-  name: "хвост акулы"
-  parent: [PartShark, BaseTail]
-  components:
-    - type: Sprite
-      sprite: _ADT/Mobs/Customization/Shark/parts.rsi
-      state: "tail_m"
-
 - type: entity
   id: LeftLegShark
-  name: "левая нога акулы"
+  name: "left shark leg"
   parent: [PartShark, BaseLeftLeg]
   components:
     - type: Sprite
@@ -132,7 +128,7 @@
 
 - type: entity
   id: RightLegShark
-  name: "правая нога акулы"
+  name: "right shark leg"
   parent: [PartShark, BaseRightLeg]
   components:
     - type: Sprite
@@ -144,7 +140,7 @@
 
 - type: entity
   id: LeftFootShark
-  name: "левая ступня акулы"
+  name: "left shark foot"
   parent: [PartShark, BaseLeftFoot]
   components:
     - type: Sprite
@@ -159,7 +155,7 @@
 
 - type: entity
   id: RightFootShark
-  name: "правая ступня акулы"
+  name: "right shark foot"
   parent: [PartShark, BaseRightFoot]
   components:
     - type: Sprite
