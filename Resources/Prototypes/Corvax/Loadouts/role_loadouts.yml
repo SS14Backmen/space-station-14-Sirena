@@ -1,9 +1,9 @@
 - type: roleLoadout
   id: JobIAA
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-IAA #erida
+  - Niz-IAA #erida
+  - Socks-IAA #erida
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
