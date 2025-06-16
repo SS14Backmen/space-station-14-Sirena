@@ -2,9 +2,9 @@
 - type: roleLoadout
   id: JobCaptain
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Captain #erida
+  - Niz-Captain #erida
+  - Socks-Captain #erida
   - CaptainHead
   - CaptainNeck
   - CaptainJumpsuit
@@ -20,9 +20,9 @@
 - type: roleLoadout
   id: JobHeadOfPersonnel
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-HeadofPersonnel #erida
+  - Niz-HeadofPersonnel #erida
+  - Socks-HeadofPersonnel #erida
   - GroupTankHarness
   - HoPHead
   - HoPNeck
@@ -52,8 +52,8 @@
 - type: roleLoadout
   id: JobPassenger
   groups:
-  - Werx #backmen
-  - Niz #backmen
+  - Werx-Passenger #erida
+  - Niz-Passenger #erida
   - Socks #backmen
   - GroupTankHarness
   - PassengerJumpsuit
@@ -73,9 +73,9 @@
 - type: roleLoadout
   id: JobBartender
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Bartender #erida
+  - Niz-Bartender #erida
+  - Socks-Bartender #erida
   - GroupTankHarness
   - BartenderHead
   - BartenderJumpsuit
@@ -91,9 +91,9 @@
 - type: roleLoadout
   id: JobServiceWorker
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Service #erida
+  - Niz-Service #erida
+  - Socks-Service #erida
   - GroupTankHarness
   - BartenderJumpsuit
   - CommonBackpack
@@ -107,9 +107,9 @@
 - type: roleLoadout
   id: JobChef
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Chef #erida
+  - Niz-Chef #erida
+  - Socks-Chef #erida
   - GroupTankHarness
   - ChefHead
   - ChefMask
@@ -126,9 +126,9 @@
 - type: roleLoadout
   id: JobLibrarian
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Librarian #erida
+  - Niz-Librarian #erida
+  - Socks-Librarian #erida
   - GroupTankHarness
   - LibrarianJumpsuit
   - CommonBackpack
@@ -142,9 +142,9 @@
 - type: roleLoadout
   id: JobLawyer
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Lawyer #erida
+  - Niz-Lawyer #erida
+  - Socks-Lawyer #erida
   - GroupTankHarness
   - LawyerNeck
   - LawyerJumpsuit
@@ -159,9 +159,9 @@
 - type: roleLoadout
   id: JobChaplain
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Chaplain #erida
+  - Niz-Chaplain #erida
+  - Socks-Chaplain #erida
   - GroupTankHarness
   - ChaplainHead
   - ChaplainMask
@@ -178,9 +178,9 @@
 - type: roleLoadout
   id: JobJanitor
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Janitor #erida
+  - Niz-Janitor #erida
+  - Socks-Janitor #erida
   - GroupTankHarness
   - JanitorHead
   - JanitorJumpsuit
@@ -198,9 +198,9 @@
 - type: roleLoadout
   id: JobBotanist
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Botanist #erida
+  - Niz-Botanist #erida
+  - Socks-Botanist #erida
   - GroupTankHarness
   - BotanistHead
   - BotanistJumpsuit
@@ -217,9 +217,9 @@
   id: JobClown
   canCustomizeName: true
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Clown #erida
+  - Niz-Clown #erida
+  - Socks-Clown #erida
   - GroupTankHarness
   - ClownHead
   - ClownJumpsuit
@@ -236,9 +236,9 @@
   id: JobMime
   canCustomizeName: true
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Mime #erida
+  - Niz-Mime #erida
+  - Socks-Mime #erida
   - GroupTankHarness
   - MimeHead
   - MimeMask
@@ -255,9 +255,9 @@
 - type: roleLoadout
   id: JobMusician
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Musician #erida
+  - Niz-Musician #erida
+  - Socks-Musician #erida
   - GroupTankHarness
   - MusicianJumpsuit
   - CommonBackpack
@@ -274,9 +274,9 @@
 - type: roleLoadout
   id: JobQuartermaster
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Quartermaster #erida
+  - Niz-Quartermaster #erida
+  - Socks-Quartermaster #erida
   - GroupTankHarness
   - QuartermasterHead
   - QuartermasterNeck
@@ -295,9 +295,9 @@
 - type: roleLoadout
   id: JobCargoTechnician
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-CargoTechnician #erida
+  - Niz-CargoTechnician #erida
+  - Socks-CargoTechnician #erida
   - GroupTankHarness
   - CargoTechnicianHead
   - CargoTechnicianJumpsuit
@@ -314,9 +314,9 @@
 - type: roleLoadout
   id: JobSalvageSpecialist
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-SalvageSpecialist #erida
+  - Niz-SalvageSpecialist #erida
+  - Socks-SalvageSpecialist #erida
   - GroupTankHarness
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
@@ -332,9 +332,9 @@
 - type: roleLoadout
   id: JobChiefEngineer
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-ChiefEngineer #erida
+  - Niz-ChiefEngineer #erida
+  - Socks-ChiefEngineer #erida
   - GroupTankHarness
   - ChiefEngineerHead
   - ChiefEngineerJumpsuit
@@ -352,9 +352,9 @@
 - type: roleLoadout
   id: JobTechnicalAssistant
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-TechnicalAssistant #erida
+  - Niz-TechnicalAssistant #erida
+  - Socks-TechnicalAssistant #erida
   - GroupTankHarness
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
@@ -368,9 +368,9 @@
 - type: roleLoadout
   id: JobStationEngineer
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Engineer #erida
+  - Niz-Engineer #erida
+  - Socks-Engineer #erida
   - GroupTankHarness
   - StationEngineerHead
   - StationEngineerJumpsuit
@@ -388,9 +388,9 @@
 - type: roleLoadout
   id: JobAtmosphericTechnician
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-AtmosphericTechnician #erida
+  - Niz-AtmosphericTechnician #erida
+  - Socks-AtmosphericTechnician #erida
   - GroupTankHarness
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianBackpack
@@ -406,9 +406,9 @@
 - type: roleLoadout
   id: JobResearchDirector
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-ResearchDirector #erida
+  - Niz-ResearchDirector #erida
+  - Socks-ResearchDirector #erida
   - GroupTankHarness
   - ResearchDirectorHead
   - ResearchDirectorNeck
@@ -428,9 +428,9 @@
 - type: roleLoadout
   id: JobScientist
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Scientist #erida
+  - Niz-Scientist #erida
+  - Socks-Scientist #erida
   - GroupTankHarness
   - ScientistHead
   - ScientistNeck
@@ -450,9 +450,9 @@
 - type: roleLoadout
   id: JobResearchAssistant
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-ResearchAssistant #erida
+  - Niz-ResearchAssistant #erida
+  - Socks-ResearchAssistant #erida
   - GroupTankHarness
   - ResearchAssistantJumpsuit
   - ScientistBackpack
@@ -467,9 +467,9 @@
 - type: roleLoadout
   id: JobHeadOfSecurity
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-HeadOfSecurity #erida
+  - Niz-HeadOfSecurity #erida
+  - Socks-HeadOfSecurity #erida
   - HeadofSecurityHead
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
@@ -490,9 +490,9 @@
 - type: roleLoadout
   id: JobWarden
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Warden #erida
+  - Niz-Warden #erida
+  - Socks-Warden #erida
   - WardenHead
   - WardenJumpsuit
   - SecurityBackpack
@@ -511,9 +511,9 @@
 - type: roleLoadout
   id: JobSecurityOfficer
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-SecurityOfficer #erida
+  - Niz-SecurityOfficer #erida
+  - Socks-SecurityOfficer #erida
   - SecurityHead
   - SecurityJumpsuit
   - SecurityBackpack
@@ -533,9 +533,9 @@
 - type: roleLoadout
   id: JobDetective
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Detective #erida
+  - Niz-Detective #erida
+  - Socks-Detective #erida
   - GroupTankHarness
   - DetectiveHead
   - DetectiveNeck
@@ -554,9 +554,9 @@
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Cadet #erida
+  - Niz-Cadet #erida
+  - Socks-Cadet #erida
   - SecurityCadetJumpsuit
   - SecurityBackpack
   - Medals #backmen
@@ -569,9 +569,9 @@
 - type: roleLoadout
   id: JobChiefMedicalOfficer
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-CMO #erida
+  - Niz-CMO #erida
+  - Socks-CMO #erida
   - GroupTankHarness
   - ChiefMedicalOfficerHead
   - MedicalMask
@@ -592,9 +592,9 @@
 - type: roleLoadout
   id: JobMedicalDoctor
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Doctor #erida
+  - Niz-Doctor #erida
+  - Socks-Doctor #erida
   - GroupTankHarness
   - MedicalDoctorHead
   - MedicalMask
@@ -614,9 +614,9 @@
 - type: roleLoadout
   id: JobMedicalIntern
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Intern #erida
+  - Niz-Intern #erida
+  - Socks-Intern #erida
   - GroupTankHarness
   - MedicalInternJumpsuit
   - MedicalBackpack
@@ -631,9 +631,9 @@
 - type: roleLoadout
   id: JobChemist
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Chemist #erida
+  - Niz-Chemist #erida
+  - Socks-Chemist #erida
   - GroupTankHarness
   - MedicalMask
   - ChemistJumpsuit
@@ -650,9 +650,9 @@
 - type: roleLoadout
   id: JobParamedic
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Paramedic #erida
+  - Niz-Paramedic #erida
+  - Socks-Paramedic #erida
   - GroupTankHarness
   - ParamedicHead
   - MedicalMask
@@ -672,9 +672,9 @@
 - type: roleLoadout
   id: JobZookeeper
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Zoo #erida
+  - Niz-Zoo #erida
+  - Socks-Zoo #erida
   - GroupTankHarness
   - CommonBackpack
   - Glasses
@@ -687,9 +687,9 @@
 - type: roleLoadout
   id: JobReporter
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Reporter #erida
+  - Niz-Reporter #erida
+  - Socks-Reporter #erida
   - GroupTankHarness
   - ReporterJumpsuit
   - CommonBackpack
@@ -703,9 +703,9 @@
 - type: roleLoadout
   id: JobPsychologist
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Psychologist #erida
+  - Niz-Psychologist #erida
+  - Socks-Psychologist #erida
   - PsychologistJumpsuit #backmen
   - GroupTankHarness
   - PsychologistJumpsuit
@@ -720,9 +720,9 @@
 - type: roleLoadout
   id: JobBoxer
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Boxer #erida
+  - Niz-Boxer #erida
+  - Socks-Boxer #erida
   - GroupTankHarness
   - BoxerJumpsuit
   - BoxerGloves

@@ -1,0 +1,934 @@
+#centcom
+#blueshield
+
+- type: loadout
+  id: ClothingUnderwearTopBraBlueShieldOfficer
+  equipment:
+    undershirt: ClothingUnderwearTopBraBlueShieldOfficer
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersBlueShieldOfficer
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersBlueShieldOfficer
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesBlueShieldOfficer
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesBlueShieldOfficer
+  
+- type: loadout
+  id: ClothingUnderwearSocksBlueShieldOfficer
+  equipment:
+    socks: ClothingUnderwearSocksBlueShieldOfficer
+
+#command
+#captain
+
+- type: loadout
+  id: ClothingUnderwearTopBraCaptain
+  equipment:
+    undershirt: ClothingUnderwearTopBraCaptain
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersCaptain
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersCaptain
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesCaptain
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesCaptain
+
+- type: loadout
+  id: ClothingUnderwearSocksCaptain
+  equipment:
+    socks: ClothingUnderwearSocksCaptain
+
+#HoP
+
+- type: loadout
+  id: ClothingUnderwearTopBraHeadofPersonnel
+  equipment:
+    undershirt: ClothingUnderwearTopBraHeadofPersonnel
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersHeadofPersonnel
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersHeadofPersonnel
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesHeadofPersonnel
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesHeadofPersonnel
+
+- type: loadout
+  id: ClothingUnderwearSocksHeadofPersonnel
+  equipment:
+    socks: ClothingUnderwearSocksHeadofPersonnel
+
+#CMO
+
+- type: loadout
+  id: ClothingUnderwearTopBraCMO
+  equipment:
+    undershirt: ClothingUnderwearTopBraCMO
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersCMO
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersCMO
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesCMO
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesCMO
+
+- type: loadout
+  id: ClothingUnderwearSocksCMO
+  equipment:
+    socks: ClothingUnderwearSocksCMO
+
+#CE
+
+- type: loadout
+  id: ClothingUnderwearTopBraChiefEngineer
+  equipment:
+    undershirt: ClothingUnderwearTopBraChiefEngineer
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersChiefEngineer
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersChiefEngineer
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesChiefEngineer
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesChiefEngineer
+
+- type: loadout
+  id: ClothingUnderwearSocksChiefEngineer
+  equipment:
+    socks: ClothingUnderwearSocksChiefEngineer
+
+#RD
+
+- type: loadout
+  id: ClothingUnderwearTopBraResearchDirector
+  equipment:
+    undershirt: ClothingUnderwearTopBraResearchDirector
+  
+- type: loadout
+  id: ClothingUnderwearBottomBoxersResearchDirector
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersResearchDirector
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesResearchDirector
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesResearchDirector
+
+- type: loadout
+  id: ClothingUnderwearSocksResearchDirector
+  equipment:
+    socks: ClothingUnderwearSocksResearchDirector
+
+#QM
+
+- type: loadout
+  id: ClothingUnderwearTopBraQuartermaster
+  equipment:
+    undershirt: ClothingUnderwearTopBraQuartermaster
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersQuartermaster
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersQuartermaster
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesQuartermaster
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesQuartermaster
+
+- type: loadout
+  id: ClothingUnderwearSocksQuartermaster
+  equipment:
+    socks: ClothingUnderwearSocksQuartermaster
+
+#HoS
+
+- type: loadout
+  id: ClothingUnderwearTopBraHos
+  equipment:
+    undershirt: ClothingUnderwearTopBraHos
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersHoss
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersHoS
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesHoS
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesHoS
+
+- type: loadout
+  id: ClothingUnderwearSocksHoS
+  equipment:
+    socks: ClothingUnderwearSocksHoS
+
+- type: loadout
+  id: ClothingUnderwearWomenSocksHoS
+  equipment:
+    socks: ClothingUnderwearWomenSocksHoS
+
+#IAA
+
+- type: loadout
+  id: ClothingUnderwearTopBraIAA
+  equipment:
+    undershirt: ClothingUnderwearTopBraIAA
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersIAA
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersIAA
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesIAA
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesIAA
+
+- type: loadout
+  id: ClothingUnderwearSocksIAA
+  equipment:
+    socks: ClothingUnderwearSocksIAA
+
+#Security
+#Warden
+
+- type: loadout
+  id: ClothingUnderwearTopBraWarden
+  equipment:
+    undershirt: ClothingUnderwearTopBraWarden
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersWarden
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersWarden
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesWarden
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesWarden
+
+- type: loadout
+  id: ClothingUnderwearSocksWarden
+  equipment:
+    socks: ClothingUnderwearSocksWarden
+
+- type: loadout
+  id: ClothingUnderwearWomenSocksWarden
+  equipment:
+    socks: ClothingUnderwearWomenSocksWarden
+
+#detective
+
+- type: loadout
+  id: ClothingUnderwearTopBraDetective
+  equipment:
+    undershirt: ClothingUnderwearTopBraDetective
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersDetective
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersDetective
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesDetective
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesDetective
+
+- type: loadout
+  id: ClothingUnderwearSocksDetective
+  equipment:
+    socks: ClothingUnderwearSocksDetective
+
+- type: loadout
+  id: ClothingUnderwearWomenSocksDetective
+  equipment:
+    socks: ClothingUnderwearWomenSocksDetective
+
+#brigmedic
+
+- type: loadout
+  id: ClothingUnderwearTopBraBrigmedic
+  equipment:
+    undershirt: ClothingUnderwearTopBraBrigmedic
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersBrigmedic
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersBrigmedic
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesBrigmedic
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesBrigmedic
+
+- type: loadout
+  id: ClothingUnderwearSocksBrigmedic
+  equipment:
+    socks: ClothingUnderwearSocksBrigmedic
+
+- type: loadout
+  id: ClothingUnderwearWomenSocksBrigmedic
+  equipment:
+    socks: ClothingUnderwearWomenSocksBrigmedic
+
+#SecOfficer
+
+- type: loadout
+  id: ClothingUnderwearTopBraSecurityOfficer
+  equipment:
+    undershirt: ClothingUnderwearTopBraSecurityOfficer
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersSecurityOfficer
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersSecurityOfficer
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesSecurityOfficer
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesSecurityOfficer
+
+- type: loadout
+  id: ClothingUnderwearSocksSecurityOfficer
+  equipment:
+    socks: ClothingUnderwearSocksSecurityOfficer
+
+- type: loadout
+  id: ClothingUnderwearWomenSocksSecurityOfficer
+  equipment:
+    socks: ClothingUnderwearWomenSocksSecurityOfficer
+
+#SecCadet
+
+- type: loadout
+  id: ClothingUnderwearTopBraCadet
+  equipment:
+    undershirt: ClothingUnderwearTopBraCadet
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersCadet
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersCadet
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesCadet
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesCadet
+
+- type: loadout
+  id: ClothingUnderwearSocksCadet
+  equipment:
+    socks: ClothingUnderwearSocksCadet
+
+- type: loadout
+  id: ClothingUnderwearWomenSocksCadet
+  equipment:
+    socks: ClothingUnderwearWomenSocksCadet
+
+#Science
+#Scientlist
+
+- type: loadout
+  id: ClothingUnderwearTopBraScientist
+  equipment:
+    undershirt: ClothingUnderwearTopBraScientist
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersScientist
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersScientist
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesScientist
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesScientist
+
+- type: loadout
+  id: ClothingUnderwearSocksScientist
+  equipment:
+    socks: ClothingUnderwearSocksScientist
+
+#Research Assistant
+
+- type: loadout
+  id: ClothingUnderwearTopBraResearchAssistant
+  equipment:
+    undershirt: ClothingUnderwearTopBraResearchAssistant
+  
+- type: loadout
+  id: ClothingUnderwearBottomBoxersResearchAssistant
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersResearchAssistant
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesResearchAssistant
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesResearchAssistant
+
+- type: loadout
+  id: ClothingUnderwearSocksResearchAssistant
+  equipment:
+    socks: ClothingUnderwearSocksResearchAssistant
+
+#Supply
+#CargoTech
+
+- type: loadout
+  id: ClothingUnderwearTopBraCargoTechnician
+  equipment:
+    undershirt: ClothingUnderwearTopBraCargoTechnician
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersCargoTechnician
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersCargoTechnician
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesCargoTechnician
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesCargoTechnician
+
+- type: loadout
+  id: ClothingUnderwearSocksCargoTech
+  equipment:
+    socks: ClothingUnderwearSocksCargoTech
+
+#SalvageSpec
+
+- type: loadout
+  id: ClothingUnderwearTopBraSalvageSpecialist
+  equipment:
+    undershirt: ClothingUnderwearTopBraSalvageSpecialist
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersSalvageSpecialist
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersSalvageSpecialist
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesSalvageSpecialist
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesSalvageSpecialist
+
+- type: loadout
+  id: ClothingUnderwearSocksSalvage
+  equipment:
+    socks: ClothingUnderwearSocksSalvage
+
+#Med
+#Chemist
+
+- type: loadout
+  id: ClothingUnderwearTopBraChemist
+  equipment:
+    undershirt: ClothingUnderwearTopBraChemist
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersChemist
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersChemist
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesChemist
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesChemist
+
+- type: loadout
+  id: ClothingUnderwearSocksChemist
+  equipment:
+    socks: ClothingUnderwearSocksChemist
+
+#Paramedic
+
+- type: loadout
+  id: ClothingUnderwearTopBraParamedic
+  equipment:
+    undershirt: ClothingUnderwearTopBraParamedic
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersParamedic
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersParamedic
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesParamedic
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesParamedic
+
+- type: loadout
+  id: ClothingUnderwearSocksParamedic
+  equipment:
+    socks: ClothingUnderwearSocksParamedic
+
+#medic
+
+- type: loadout
+  id: ClothingUnderwearTopBraDoctor
+  equipment:
+    undershirt: ClothingUnderwearTopBraDoctor
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersDoctor
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersDoctor
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesDoctor
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesDoctor
+
+- type: loadout
+  id: ClothingUnderwearSocksDoctor
+  equipment:
+    socks: ClothingUnderwearSocksDoctor
+
+#intern
+
+- type: loadout
+  id: ClothingUnderwearTopBraIntern
+  equipment:
+    undershirt: ClothingUnderwearTopBraIntern
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersIntern
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersIntern
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesIntern
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesIntern
+
+- type: loadout
+  id: ClothingUnderwearSocksIntern
+  equipment:
+    socks: ClothingUnderwearSocksIntern
+
+#psychologist
+
+- type: loadout
+  id: ClothingUnderwearTopBraPsychologist
+  equipment:
+    undershirt: ClothingUnderwearTopBraPsychologist
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersPsychologist
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersPsychologist
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesPsychologist
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesPsychologist
+
+- type: loadout
+  id: ClothingUnderwearSocksPsychologist
+  equipment:
+    socks: ClothingUnderwearSocksPsychologist
+
+#enginering
+#atmos
+
+- type: loadout
+  id: ClothingUnderwearTopBraAtmosphericTechnician
+  equipment:
+    undershirt: ClothingUnderwearTopBraAtmosphericTechnician
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersAtmosphericTechnician
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersAtmosphericTechnician
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesAtmosphericTechnician
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesAtmosphericTechnician
+
+- type: loadout
+  id: ClothingUnderwearSocksAtmos
+  equipment:
+    socks: ClothingUnderwearSocksAtmos
+
+#engineer
+
+- type: loadout
+  id: ClothingUnderwearTopBraEngineer
+  equipment:
+    undershirt: ClothingUnderwearTopBraEngineer
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersEngineer
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersEngineer
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesEngineer
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesEngineer
+
+- type: loadout
+  id: ClothingUnderwearSocksEngineer
+  equipment:
+    socks: ClothingUnderwearSocksEngineer
+
+#tech assistaint
+
+- type: loadout
+  id: ClothingUnderwearTopBraTechnicalAssistant
+  equipment:
+    undershirt: ClothingUnderwearTopBraTechnicalAssistant
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersTechnicalAssistant
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersTechnicalAssistant
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesTechnicalAssistant
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesTechnicalAssistant
+
+- type: loadout
+  id: ClothingUnderwearSocksTechnicalAssistant
+  equipment:
+    socks: ClothingUnderwearSocksTechnicalAssistant
+
+#Service
+#bartender
+
+- type: loadout
+  id: ClothingUnderwearTopBraBartender
+  equipment:
+    undershirt: ClothingUnderwearTopBraBartender
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersBartender
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersBartender
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesBartender
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesBartender
+
+- type: loadout
+  id: ClothingUnderwearSocksBartender
+  equipment:
+    socks: ClothingUnderwearSocksBartender
+
+#service
+
+- type: loadout
+  id: ClothingUnderwearTopBraService
+  equipment:
+    undershirt: ClothingUnderwearTopBraService
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersService
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersService
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesService
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesService
+
+- type: loadout
+  id: ClothingUnderwearSocksService
+  equipment:
+    socks: ClothingUnderwearSocksService
+
+#chef
+
+- type: loadout
+  id: ClothingUnderwearTopBraChef
+  equipment:
+    undershirt: ClothingUnderwearTopBraChef
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersChef
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersChef
+#---------------------------------------
+- type: loadout
+  id: ClothingUnderwearBottomPantiesChef
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesChef
+
+- type: loadout
+  id: ClothingUnderwearSocksChef
+  equipment:
+    socks: ClothingUnderwearSocksChef
+
+#Librarian
+
+- type: loadout
+  id: ClothingUnderwearTopBraLibrarian
+  equipment:
+    undershirt: ClothingUnderwearTopBraLibrarian
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersLibrarian
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersLibrarian
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesLibrarian
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesLibrarian
+
+- type: loadout
+  id: ClothingUnderwearSocksLibrarian
+  equipment:
+    socks: ClothingUnderwearSocksLibrarian
+
+#Botanist
+
+- type: loadout
+  id: ClothingUnderwearTopBraBotanist
+  equipment:
+    undershirt: ClothingUnderwearTopBraBotanist
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersBotanist
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersBotanist
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesBotanist
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesBotanist
+
+- type: loadout
+  id: ClothingUnderwearSocksBotanist
+  equipment:
+    socks: ClothingUnderwearSocksBotanist
+
+#Clown
+
+- type: loadout
+  id: ClothingUnderwearTopBraClown
+  equipment:
+    undershirt: ClothingUnderwearTopBraClown
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersClown
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersClown
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesClown
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesClown
+
+- type: loadout
+  id: ClothingUnderwearSocksClown
+  equipment:
+    socks: ClothingUnderwearSocksClown
+
+#Mime
+
+- type: loadout
+  id: ClothingUnderwearTopBraMime
+  equipment:
+    undershirt: ClothingUnderwearTopBraMime
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersMime
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersMime
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesMime
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesMime
+
+- type: loadout
+  id: ClothingUnderwearSocksMime
+  equipment:
+    socks: ClothingUnderwearSocksMime
+
+#Musician
+
+- type: loadout
+  id: ClothingUnderwearTopBraMusician
+  equipment:
+    undershirt: ClothingUnderwearTopBraMusician
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersMusician
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersMusician
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesMusician
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesMusician
+
+- type: loadout
+  id: ClothingUnderwearSocksMusician
+  equipment:
+    socks: ClothingUnderwearSocksMusician
+
+#boxer
+
+- type: loadout
+  id: ClothingUnderwearTopBraBoxer
+  equipment:
+    undershirt: ClothingUnderwearTopBraBoxer
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersBoxer
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersBoxer
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesBoxer
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesBoxer
+
+- type: loadout
+  id: ClothingUnderwearSocksBoxer
+  equipment:
+    socks: ClothingUnderwearSocksBoxer
+
+#chaplain
+
+- type: loadout
+  id: ClothingUnderwearTopBraChaplain
+  equipment:
+    undershirt: ClothingUnderwearTopBraChaplain
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersChaplain
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersChaplain
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesChaplain
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesChaplain
+
+- type: loadout
+  id: ClothingUnderwearSocksChaplain
+  equipment:
+    socks: ClothingUnderwearSocksChaplain
+
+#janitor
+
+- type: loadout
+  id: ClothingUnderwearTopBraJanitor
+  equipment:
+    undershirt: ClothingUnderwearTopBraJanitor
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersJanitor
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersJanitor
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesJanitor
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesJanitor
+
+- type: loadout
+  id: ClothingUnderwearSocksJanitor
+  equipment:
+    socks: ClothingUnderwearSocksJanitor
+
+#reporter
+
+- type: loadout
+  id: ClothingUnderwearTopBraReporter
+  equipment:
+    undershirt: ClothingUnderwearTopBraReporter
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersReporter
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersReporter
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesReporter
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesReporter
+
+- type: loadout
+  id: ClothingUnderwearSocksReporter
+  equipment:
+    socks: ClothingUnderwearSocksReporter
+
+#zoo
+
+- type: loadout
+  id: ClothingUnderwearTopBraZoo
+  equipment:
+    undershirt: ClothingUnderwearTopBraZoo
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersZoo
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersZoo
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesZoo
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesZoo
+
+- type: loadout
+  id: ClothingUnderwearSocksZoo
+  equipment:
+    socks: ClothingUnderwearSocksZoo
+
+#passenger
+
+- type: loadout
+  id: ClothingUnderwearTopBraWhite
+  equipment:
+    undershirt: ClothingUnderwearTopBraWhite
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersWhite
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersWhite
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesWhite
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesWhite
+
+#lawyer
+
+- type: loadout
+  id: ClothingUnderwearTopBraLawyer
+  equipment:
+    undershirt: ClothingUnderwearTopBraLawyer
+
+- type: loadout
+  id: ClothingUnderwearBottomBoxersLawyer
+  equipment:
+    underpants: ClothingUnderwearBottomBoxersLawyer
+
+- type: loadout
+  id: ClothingUnderwearBottomPantiesLawyer
+  equipment:
+    underpants: ClothingUnderwearBottomPantiesLawyer
+
+- type: loadout
+  id: ClothingUnderwearSocksLawyer
+  equipment:
+    socks: ClothingUnderwearSocksLawyer

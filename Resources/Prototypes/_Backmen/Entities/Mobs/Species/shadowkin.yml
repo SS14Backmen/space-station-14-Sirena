@@ -98,7 +98,7 @@
     interactFailureString: petting-failure-generic
     interactSuccessString: petting-success-soft-floofy
     interactSuccessSound: /Audio/Effects/thudswoosh.ogg
-    messagePerceivedByOthers: petting-success-soft-floofy-others
+    messagePerceivedByOthers: hugging-success-generic-others
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.7
     baseSprintSpeed : 4.5

@@ -1,3 +1,5 @@
+ent-LPPClothingUnderwearBase = base ass toys
+    .desc = Стой.. это что, одна из тех самых игрушек в твоей коллекции?
 ent-LPPDildoAvian = Птичий фаллоимитатор
     .desc = { ent-LPPClothingUnderwearBase.desc }
 ent-LPPDildoCanine = Собачий фаллоимитатор

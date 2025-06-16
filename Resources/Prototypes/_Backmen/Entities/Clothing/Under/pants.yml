@@ -4,6 +4,15 @@
   parent: Clothing
   id: ClothingUnderPantsBase
   components:
+    - type: Clothing
+      slots:
+        - UNDERPANTS
+    - type: Sprite
+      # noRot: true
+      state: icon
+    - type: TemperatureProtection
+      heatingCoefficient: 0.8
+      #erida changes start
     - type: Food
       requiresSpecialDigestion: true
     - type: SolutionContainerManager
@@ -16,14 +25,10 @@
     - type: Tag
       tags:
       - ClothMade
-    - type: Clothing
-      slots:
-        - UNDERPANTS
-    - type: Sprite
-      # noRot: true
-      state: icon
-    - type: TemperatureProtection
-      heatingCoefficient: 0.8
+    - type: Item
+      size: Small
+      #erida changes end
+
 
 - type: entity
   parent: ClothingUnderPantsBase

@@ -290,19 +290,19 @@
     - type: TemperatureProtection
       heatingCoefficient: 0.85
 
-# - type: entity
-#   parent: ClothingUnderSocksBase
-#   id: ClothingUnderFishnet
-#   name: fishnet
-#   components:
-#     - type: Sprite
-#       sprite: Backmen/Clothing/Under/socks.rsi
-#       state: fishnet-ICON
-#     - type: Clothing
-#       sprite: Backmen/Clothing/Under/socks.rsi
-#       clothingVisuals:
-#         socks:
-#           - state: fishnet
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderFishnet
+  name: fishnet
+  components:
+    - type: Sprite
+      sprite: Backmen/Clothing/Under/socks.rsi
+      state: fishnet-ICON
+    - type: Clothing
+      sprite: Backmen/Clothing/Under/socks.rsi
+      clothingVisuals:
+        socks:
+          - state: fishnet
 
 - type: entity
   parent: ClothingUnderSocksBase

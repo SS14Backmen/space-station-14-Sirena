@@ -14,9 +14,9 @@
 - type: roleLoadout
   id: JobBrigmedic
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-Brigmedic #erida
+  - Niz-Brigmedic #erida
+  - Socks-Brigmedic #erida
   - ClothingUniformJumpsuitBrigmedic
   - ClothingBackpackBrigmedic
   - ClothingHeadHatBrigmedic
@@ -31,9 +31,9 @@
 - type: roleLoadout
   id: JobBlueShield
   groups:
-  - Werx #backmen
-  - Niz #backmen
-  - Socks #backmen
+  - Werx-BlueShieldOfficer #erida
+  - Niz-BlueShieldOfficer #erida
+  - Socks-BlueShieldOfficer #erida
   - BlueShieldHat
   - BlueShieldEyes
   - BlueshieldNeck

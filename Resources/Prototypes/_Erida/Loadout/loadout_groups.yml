@@ -1,0 +1,2530 @@
+- type: loadoutGroup
+  id: Werx-Captain
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraCaptain
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Captain
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersCaptain
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesCaptain
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Captain
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksCaptain
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-HeadofPersonnel
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraHeadofPersonnel
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-HeadofPersonnel
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersHeadofPersonnel
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesHeadofPersonnel
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-HeadofPersonnel
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksHeadofPersonnel
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Passenger
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraWhite
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Passenger
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersWhite
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesWhite
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Bartender
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraBartender
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Bartender
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersBartender
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesBartender
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Bartender
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksBartender
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Service
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraService
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Service
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersService
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesService
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Service
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksService
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Chef
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraChef
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Chef
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersChef
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesChef
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Chef
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksChef
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Librarian
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraLibrarian
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Librarian
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersLibrarian
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesLibrarian
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Librarian
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksLibrarian
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Lawyer
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraLawyer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Lawyer
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersLawyer
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesLawyer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Lawyer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksLawyer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Chaplain
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraChaplain
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Chaplain
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersChaplain
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesChaplain
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Chaplain
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksChaplain
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Janitor
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraJanitor
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Janitor
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersJanitor
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesJanitor
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Janitor
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksJanitor
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Botanist
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraBotanist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Botanist
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersBotanist
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesBotanist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Botanist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksBotanist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Clown
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraClown
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Clown
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersClown
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesClown
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Clown
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksClown
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Mime
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraMime
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Mime
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersMime
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesMime
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Mime
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksMime
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Musician
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraMusician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Musician
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersMusician
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesMusician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Musician
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksMusician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Quartermaster
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraQuartermaster
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Quartermaster
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersQuartermaster
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesQuartermaster
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Quartermaster
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksQuartermaster
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-CargoTechnician
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraCargoTechnician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-CargoTechnician
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersCargoTechnician
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesCargoTechnician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-CargoTechnician
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksCargoTech
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-SalvageSpecialist
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraSalvageSpecialist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-SalvageSpecialist
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersSalvageSpecialist
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesSalvageSpecialist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-SalvageSpecialist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksSalvage
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-ChiefEngineer
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraChiefEngineer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-ChiefEngineer
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersChiefEngineer
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesChiefEngineer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-ChiefEngineer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksChiefEngineer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-TechnicalAssistant
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraTechnicalAssistant
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-TechnicalAssistant
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersTechnicalAssistant
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesTechnicalAssistant
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-TechnicalAssistant
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnder_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksTechnicalAssistant
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Engineer
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraEngineer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Engineer
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersEngineer
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesEngineer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Engineer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksEngineer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-AtmosphericTechnician
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraAtmosphericTechnician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-AtmosphericTechnician
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersAtmosphericTechnician
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesAtmosphericTechnician
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-AtmosphericTechnician
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksAtmos
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-ResearchDirector
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraResearchDirector
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-ResearchDirector
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersResearchDirector
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesResearchDirector
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-ResearchDirector
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksResearchDirector
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Scientist
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraScientist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Scientist
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersScientist
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesScientist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Scientist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksScientist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-ResearchAssistant
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraResearchAssistant
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-ResearchAssistant
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersResearchAssistant
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesResearchAssistant
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-ResearchAssistant
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksResearchAssistant
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-HeadOfSecurity
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraHos
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-HeadOfSecurity
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersHoss
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesHoS
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-HeadOfSecurity
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksHoS
+  - ClothingUnderwearWomenSocksHoS
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Warden
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraWarden
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Warden
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersWarden
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesWarden
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Warden
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksWarden
+  - ClothingUnderwearWomenSocksWarden
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-SecurityOfficer
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraSecurityOfficer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-SecurityOfficer
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersSecurityOfficer
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesSecurityOfficer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-SecurityOfficer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksSecurityOfficer
+  - ClothingUnderwearWomenSocksSecurityOfficer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Detective
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraDetective
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Detective
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersDetective
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesDetective
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Detective
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksDetective
+  - ClothingUnderwearWomenSocksDetective
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Cadet
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraCadet
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Cadet
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersCadet
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesCadet
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Cadet
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksCadet
+  - ClothingUnderwearWomenSocksCadet
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-CMO
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraCMO
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-CMO
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersCMO
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesCMO
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-CMO
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksCMO
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Doctor
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraDoctor
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Doctor
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersDoctor
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesDoctor
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Doctor
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksDoctor
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Intern
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraIntern
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Intern
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersIntern
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesIntern
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Intern
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksIntern
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Chemist
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraChemist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Chemist
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersChemist
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesChemist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Chemist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksChemist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Paramedic
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraParamedic
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Paramedic
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersParamedic
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesParamedic
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Paramedic
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksParamedic
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Zoo
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraZoo
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Zoo
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersZoo
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesZoo
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Zoo
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksZoo
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Reporter
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraReporter
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Reporter
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersReporter
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesReporter
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Reporter
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksReporter
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Psychologist
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraPsychologist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Psychologist
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersPsychologist
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesPsychologist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Psychologist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksPsychologist
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Boxer
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraBoxer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Boxer
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersBoxer
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesBoxer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Boxer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksBoxer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-Brigmedic
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraBrigmedic
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-Brigmedic
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersBrigmedic
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesBrigmedic
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-Brigmedic
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksBrigmedic
+  - ClothingUnderwearWomenSocksBrigmedic
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-BlueShieldOfficer
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraBlueShieldOfficer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-BlueShieldOfficer
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersBlueShieldOfficer
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesBlueShieldOfficer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-BlueShieldOfficer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksBlueShieldOfficer
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Werx-IAA
+  name: loadout-group-werx
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#футболки/рубашки
+  - ClothingUnderljont
+  - ClothingUndershortsleeve
+  - ClothingUnderlover
+  - ClothingUndershirt_nano
+  - ClothingUnderilovent
+  - ClothingUnderbowlinga
+  - ClothingUnderpolo
+  - ClothingUndergreenshirtsport
+#женское
+  - ClothingUnderbra_binder
+  - ClothingUnderbra_alt
+  - ClothingUnderbra
+  - ClothingUnderbra_binder_strapless
+  - ClothingUnderbra_strapless_alt
+  - ClothingUndertank_midriff
+  - ClothingUndertank_midriff_alt
+  - ClothingUndertubetop
+  - ClothingUnderwearTopBraIAA
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Niz-IAA
+  name: loadout-group-niz
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+#муж
+  - ClothingUnderboxer_briefs
+  - ClothingUnderbriefs
+  - ClothingUnderboxers_heart
+  - ClothingUnderljonb
+  - ClothingUnderwearBottomBoxersIAA
+#жен
+  - ClothingUnderjockstrap
+  - ClothingUnderpanties
+  - ClothingUnderpantyhose
+  - ClothingUnderwearBottomPantiesIAA
+#---------------------------------------
+
+- type: loadoutGroup
+  id: Socks-IAA
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderSocks_knee
+  - ClothingUnderSocks_norm
+  - ClothingUnderSocks_short
+  - ClothingUnderSocks_thigh
+  - ClothingUnderThin_knee
+  - ClothingUnderThin_thigh
+  - ClothingUnderGarter
+  - ClothingUnderwearSocksIAA
